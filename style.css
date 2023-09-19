@@ -82,6 +82,11 @@ h2 {
   background-image: url("img/accessories.svg");
 }
 
+.feature-fail {
+  padding-top: 65px;
+  background-image: url("img/fail.svg");
+}
+
 .advantages {
   width: 510px;
   margin: 0 auto 40px;
