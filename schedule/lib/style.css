@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 1.4rem;
+	background: whitesmoke;
+	margin: 0;
+	padding: 1rem;
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+}
+
+ol {
+	list-style-position: inside;
+	width: 600px;
+	max-width: 100%;
+	background: white;
+	box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.15);
+	padding: 0;
+	margin: 0;
+	border-radius: 0.1rem;
+}
+.math {
+	background-color: #f8c314;
+}
+.math2 {
+	background-color: #a547c2;
+}
+.engl {
+	background-color: #f077d1;
+}
+.lit {
+	background-color: #85f077;
+}
+.pe {
+	background-color: #ff2600;
+}
+.chem {
+	background-color: #c1c7ff;
+}
+.inf {
+	background-color: #ffc1c9;
+}
+.cul {
+	background-color: #c5dbf8;
+}
+.cul {
+	background-color: #c5dbf8;
+}
+.geogr {
+	background-color: #fffda3;
+}
+.his {
+	background-color: #a5eaf3;
+}
+.geogr {
+	background-color: #3c9757;
+}
+.rus {
+	background-color: #b701ff;
+}
+.phi {
+	background-color: #417ace;
+}
+.bio {
+	background-color: #71fc15;
+}
+/*________________________________________________________________________*/
+::marker {
+	--image: '📩 ';
+	content: counter(list-item) ' ' var(--image);
+}
+
+li:nth-child(2)::marker {
+	--image: '🐈 ';
+}
+
+li:nth-child(3)::marker {
+	--image: '🗑 ';
+}
+
+li:nth-child(4)::marker {
+	--image: '🪴 ';
+}
+
+li:nth-child(5)::marker {
+	--image: '🔑 ';
+}
